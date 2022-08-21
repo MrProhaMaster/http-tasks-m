@@ -1,4 +1,3 @@
-from pprint import pp, pprint
 import requests
 
 
@@ -17,5 +16,5 @@ def task1():
             mx = heroes[i]
             mx_hero = i
     print(f'Самый умный: {mx_hero} - {mx}')
-    
+
 task1()
